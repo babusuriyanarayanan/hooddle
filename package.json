@@ -1,0 +1,32 @@
+{
+  "name": "hoodle",
+  "version": "1.0.0",
+  "description": "community page",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/babusuriyanarayanan/hooddle.git"
+  },
+  "author": "babu suriyanarayanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babusuriyanarayanan/hooddle/issues"
+  },
+  "homepage": "https://github.com/babusuriyanarayanan/hooddle#readme",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
